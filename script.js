@@ -122,9 +122,10 @@ class Game {
 
 window.addEventListener('load', function() {
     const canvas = document.getElementById("canvas1");
-    const ctx = canvas.getContext('2d')
-    canvas.height = 600; 
-    canvas.width = 800;
+    const ctx = canvas.getContext('2d');
+    canvas.height = 800; 
+    canvas.width = 600;
+    ctx.fillStyle = 'white';
 
     let game = new Game(canvas);
 
